@@ -1,3 +1,16 @@
+:root{
+    --color1: #FF8A00;
+    --color2: #FFBB37;
+    --color3: #fff;
+    --color4: #000;
+  }
+
+*{
+    font-family:"Poppins", sans-serif;
+    margin:0;
+    padding:0;
+  }
+
 body, html {
     margin: 0;
     padding: 0;
@@ -19,5 +32,69 @@ video {
     position: absolute;
     top: 0;
     left: 0;
+    width:100%;
     object-fit: cover;
+}
+
+.découvrir {
+    position:absolute;
+    top:400px;
+    width:100%;
+    text-align: center;
+    height:400px;
+    Z-index:0;
+    font-size:100%;
+}
+
+button {
+    border: 1px solid #FF8A00;
+    border-radius:25px;
+    padding:8px 20px 8px 20px;
+    background-color: #FF8A00;
+    transition: all 0.2s;
+    color: var(--color3);
+    font-size:medium;
+    cursor: pointer;
+}
+
+button:hover{
+    border: 1px solid var(--color2);
+    background-color: var(--color2);
+    transition: all 0.2s;
+  }
+
+a {
+    text-decoration: none;
+    color: var(--color3);
+}
+
+.event-container {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.card-event {
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        height: 420px;
+        margin: 20px;
+        overflow: hidden;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.titre, .date {
+    margin-left:10px;
+}
+
+.link-voir {
+    display: flex;
+    justify-content: end;
+    color:black;
+    margin: 0 10px 0 10px;
 }
