@@ -58,7 +58,6 @@ video {
     width:80%;
     background-color: rgba(189, 195, 199, 0.5);
     position:absolute;
-    top:200px;
     Z-index:1;
     top: 50%;
     left: 50%;

@@ -42,7 +42,9 @@
 </head>
 
 <body>
+    <div class="global">
    <div class="compte">
+    <div class="hcompte">
     <div class="reglage">
         <h3>REGLAGE</h3>
         <h5>Compte</h5>
@@ -52,6 +54,34 @@
     </div>
     </div>
 
+    <div class="ligne"></div>
+
+    <div class="bcompte">
+        <div class="formulaire">
+            <form action="#" method="post" class="formulaire">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+    
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required>
+    
+                <label for="date_naissance">Date de naissance :</label>
+                <input type="date" id="date_naissance" name="date_naissance" required>
+    
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="mot_de_passe">Mot de passe :</label>
+                <input type="password" id="mot_de_passe" name="mot_de_passe" required>
+            </form>
+        </div>
+       <!--- <div class="imgcompte">
+            <img src="laptop-1035345_1280.jpg" width="50%;">
+     </div>-->
+    </div>
+    <input type="submit" value="Envoyer">
+    </div>
+    
     <footer>
         <div class="column1">
             <img src="logo-blanc.png" alt="logo">
@@ -68,7 +98,7 @@
         </div>
         <div class="column4">
             <p>S'abonner à notre newsletter</p>
-            <form id="newsletter-form" action="#" method="post">
+            <form id="newsletter-form" action="#" method="post" class="newsletter">
                 <input type="email" name="email" placeholder="Votre adresse e-mail" required>
                 <button type="submit">></button>
         </div>

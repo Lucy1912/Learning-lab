@@ -44,7 +44,7 @@ a {
         border-radius: 15px;
         box-shadow: 0 2px 4px rgba(0, 0, 0);
         width: 80%;
-        height: 400px;
+        height: 550px;
         margin: auto;
         margin-top:100px;
         margin-bottom: 100px;
@@ -52,9 +52,18 @@ a {
         padding:20px;
         background-color: var(--color1);
         color:var(--color3);
-        display: flex;
-        justify-content: space-between;
         
+}
+
+.hcompte{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ligne{
+    width: 100%;
+    border-bottom: 1px solid white;
+    margin: 20px auto;
 }
 
 .photo {
@@ -92,10 +101,37 @@ footer {
     width:70px;
 }
 
-input[type="email"] {
+.newsletter input[type="email"] {
     width: 70%;
     padding: 10px;
     margin: 5px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
+
+.formulaire {
+    display:flex;
+    flex-direction:column;
+    width:70%;
+}
+
+label {
+    margin-bottom:8px;
+}
+
+input {
+    padding:8px;
+    margin-bottom:16px;
+    border: 1px solid darkorange;
+    border-radius:20px;
+}
+
+input[type="submit"] {
+    background-color: white;
+    color:black;
+    cursor:pointer;
+    float: right;
+    width:20%;
+}
+
